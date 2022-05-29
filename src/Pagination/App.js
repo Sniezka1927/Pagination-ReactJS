@@ -3,7 +3,7 @@ import Pagination from "../Pagination";
 import "./style.scss";
 
 export default function App(props) {
-  console.log(props.data);
+  
   // const PageSize = props.data.per_page; // Reading PageSize from the site.
   const PageSize = 5; // to confirm that the pagination works as it should
   const [currentPage, setCurrentPage] = useState(1);
